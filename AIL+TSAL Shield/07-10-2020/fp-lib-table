@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name PQP1-D24-D12-D)(type KiCad)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/PQP1-D24-D12-D/PQP1-D24-D12-D.pretty")(options "")(descr ""))
+  (lib (name AIL&TSAL)(type KiCad)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/AIL&TSAL")(options "")(descr ""))
+)

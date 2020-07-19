@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name arduino_shieldsNCL)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/Arduino_Shield_Modules_for_KiCad_V3/arduino_shieldsNCL.lib")(options "")(descr ""))
+  (lib (name LTC6820IMS#PBF)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/LTC6820IMS#PBF/KiCad/LTC6820IMS#PBF.lib")(options "")(descr ""))
+  (lib (name LTC6804-2)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/LTC6804-2/KiCad/LTC6804-2.lib")(options "")(descr ""))
+  (lib (name arduino_micro_shield)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/arduino_micro_shield-master/arduino_micro_shield.lib")(options "")(descr ""))
+  (lib (name Slave-Board-rescue)(type Legacy)(uri "${KIPRJMOD}/Slave Board-rescue.lib")(options "")(descr ""))
+)

@@ -1,0 +1,499 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_01x06 J1
+U 1 1 5EE3B772
+P 2250 2250
+F 0 "J1" H 2168 1725 50  0000 C CNN
+F 1 "Conn_01x06" H 2168 1816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 2250 2250 50  0001 C CNN
+F 3 "~" H 2250 2250 50  0001 C CNN
+	1    2250 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE40A1F
+P 2450 2450
+F 0 "#PWR0101" H 2450 2200 50  0001 C CNN
+F 1 "GND" H 2455 2277 50  0000 C CNN
+F 2 "" H 2450 2450 50  0001 C CNN
+F 3 "" H 2450 2450 50  0001 C CNN
+	1    2450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0102
+U 1 1 5EE411C1
+P 2450 2250
+F 0 "#PWR0102" H 2450 2100 50  0001 C CNN
+F 1 "+12V" V 2465 2378 50  0000 L CNN
+F 2 "" H 2450 2250 50  0001 C CNN
+F 3 "" H 2450 2250 50  0001 C CNN
+	1    2450 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 2150 2    50   Input ~ 0
+CANH
+Text GLabel 2450 1950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	2450 2350 2450 2450
+Connection ~ 2450 2450
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 5EE435F7
+P 2250 3250
+F 0 "J2" H 2168 2725 50  0000 C CNN
+F 1 "Conn_01x06" H 2168 2816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 2250 3250 50  0001 C CNN
+F 3 "~" H 2250 3250 50  0001 C CNN
+	1    2250 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EE435FD
+P 2450 3450
+F 0 "#PWR0103" H 2450 3200 50  0001 C CNN
+F 1 "GND" H 2455 3277 50  0000 C CNN
+F 2 "" H 2450 3450 50  0001 C CNN
+F 3 "" H 2450 3450 50  0001 C CNN
+	1    2450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0104
+U 1 1 5EE43603
+P 2450 3250
+F 0 "#PWR0104" H 2450 3100 50  0001 C CNN
+F 1 "+12V" V 2465 3378 50  0000 L CNN
+F 2 "" H 2450 3250 50  0001 C CNN
+F 3 "" H 2450 3250 50  0001 C CNN
+	1    2450 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 3150 2    50   Input ~ 0
+CANH
+Text GLabel 2450 2950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	2450 3350 2450 3450
+Connection ~ 2450 3450
+$Comp
+L Connector_Generic:Conn_01x06 J3
+U 1 1 5EE45D9A
+P 2250 4250
+F 0 "J3" H 2168 3725 50  0000 C CNN
+F 1 "Conn_01x06" H 2168 3816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 2250 4250 50  0001 C CNN
+F 3 "~" H 2250 4250 50  0001 C CNN
+	1    2250 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5EE45DA0
+P 2450 4450
+F 0 "#PWR0105" H 2450 4200 50  0001 C CNN
+F 1 "GND" H 2455 4277 50  0000 C CNN
+F 2 "" H 2450 4450 50  0001 C CNN
+F 3 "" H 2450 4450 50  0001 C CNN
+	1    2450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0106
+U 1 1 5EE45DA6
+P 2450 4250
+F 0 "#PWR0106" H 2450 4100 50  0001 C CNN
+F 1 "+12V" V 2465 4378 50  0000 L CNN
+F 2 "" H 2450 4250 50  0001 C CNN
+F 3 "" H 2450 4250 50  0001 C CNN
+	1    2450 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 4150 2    50   Input ~ 0
+CANH
+Text GLabel 2450 3950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	2450 4350 2450 4450
+Connection ~ 2450 4450
+$Comp
+L Connector_Generic:Conn_01x06 J4
+U 1 1 5EE45DB0
+P 2250 5250
+F 0 "J4" H 2168 4725 50  0000 C CNN
+F 1 "Conn_01x06" H 2168 4816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 2250 5250 50  0001 C CNN
+F 3 "~" H 2250 5250 50  0001 C CNN
+	1    2250 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5EE45DB6
+P 2450 5450
+F 0 "#PWR0107" H 2450 5200 50  0001 C CNN
+F 1 "GND" H 2455 5277 50  0000 C CNN
+F 2 "" H 2450 5450 50  0001 C CNN
+F 3 "" H 2450 5450 50  0001 C CNN
+	1    2450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0108
+U 1 1 5EE45DBC
+P 2450 5250
+F 0 "#PWR0108" H 2450 5100 50  0001 C CNN
+F 1 "+12V" V 2465 5378 50  0000 L CNN
+F 2 "" H 2450 5250 50  0001 C CNN
+F 3 "" H 2450 5250 50  0001 C CNN
+	1    2450 5250
+	0    1    1    0   
+$EndComp
+Text GLabel 2450 5150 2    50   Input ~ 0
+CANH
+Text GLabel 2450 4950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	2450 5350 2450 5450
+Connection ~ 2450 5450
+$Comp
+L Connector_Generic:Conn_01x06 J5
+U 1 1 5EE4B90A
+P 3700 2250
+F 0 "J5" H 3618 1725 50  0000 C CNN
+F 1 "Conn_01x06" H 3618 1816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 3700 2250 50  0001 C CNN
+F 3 "~" H 3700 2250 50  0001 C CNN
+	1    3700 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 5EE4B910
+P 3900 2450
+F 0 "#PWR0109" H 3900 2200 50  0001 C CNN
+F 1 "GND" H 3905 2277 50  0000 C CNN
+F 2 "" H 3900 2450 50  0001 C CNN
+F 3 "" H 3900 2450 50  0001 C CNN
+	1    3900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0110
+U 1 1 5EE4B916
+P 3900 2250
+F 0 "#PWR0110" H 3900 2100 50  0001 C CNN
+F 1 "+12V" V 3915 2378 50  0000 L CNN
+F 2 "" H 3900 2250 50  0001 C CNN
+F 3 "" H 3900 2250 50  0001 C CNN
+	1    3900 2250
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 2150 2    50   Input ~ 0
+CANH
+Text GLabel 3900 1950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	3900 2350 3900 2450
+Connection ~ 3900 2450
+$Comp
+L Connector_Generic:Conn_01x06 J6
+U 1 1 5EE4B920
+P 3700 3250
+F 0 "J6" H 3618 2725 50  0000 C CNN
+F 1 "Conn_01x06" H 3618 2816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5EE4B926
+P 3900 3450
+F 0 "#PWR0111" H 3900 3200 50  0001 C CNN
+F 1 "GND" H 3905 3277 50  0000 C CNN
+F 2 "" H 3900 3450 50  0001 C CNN
+F 3 "" H 3900 3450 50  0001 C CNN
+	1    3900 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0112
+U 1 1 5EE4B92C
+P 3900 3250
+F 0 "#PWR0112" H 3900 3100 50  0001 C CNN
+F 1 "+12V" V 3915 3378 50  0000 L CNN
+F 2 "" H 3900 3250 50  0001 C CNN
+F 3 "" H 3900 3250 50  0001 C CNN
+	1    3900 3250
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 3150 2    50   Input ~ 0
+CANH
+Text GLabel 3900 2950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	3900 3350 3900 3450
+Connection ~ 3900 3450
+$Comp
+L Connector_Generic:Conn_01x06 J7
+U 1 1 5EE4B936
+P 3700 4250
+F 0 "J7" H 3618 3725 50  0000 C CNN
+F 1 "Conn_01x06" H 3618 3816 50  0000 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770875-x_2x03_P4.14mm_Vertical" H 3700 4250 50  0001 C CNN
+F 3 "~" H 3700 4250 50  0001 C CNN
+	1    3700 4250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5EE4B93C
+P 3900 4450
+F 0 "#PWR0113" H 3900 4200 50  0001 C CNN
+F 1 "GND" H 3905 4277 50  0000 C CNN
+F 2 "" H 3900 4450 50  0001 C CNN
+F 3 "" H 3900 4450 50  0001 C CNN
+	1    3900 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR0114
+U 1 1 5EE4B942
+P 3900 4250
+F 0 "#PWR0114" H 3900 4100 50  0001 C CNN
+F 1 "+12V" V 3915 4378 50  0000 L CNN
+F 2 "" H 3900 4250 50  0001 C CNN
+F 3 "" H 3900 4250 50  0001 C CNN
+	1    3900 4250
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 4150 2    50   Input ~ 0
+CANH
+Text GLabel 3900 3950 2    50   Input ~ 0
+CANL
+Wire Wire Line
+	3900 4350 3900 4450
+Connection ~ 3900 4450
+Text GLabel 7950 5000 0    50   Input ~ 0
+Sens
+Text GLabel 7950 5100 0    50   Input ~ 0
+PWM
+Text GLabel 7950 4900 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0115
+U 1 1 5EE6FAEB
+P 7950 4800
+F 0 "#PWR0115" H 7950 4550 50  0001 C CNN
+F 1 "GND" H 7955 4627 50  0000 C CNN
+F 2 "" H 7950 4800 50  0001 C CNN
+F 3 "" H 7950 4800 50  0001 C CNN
+	1    7950 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J13
+U 1 1 5EE6FAE5
+P 8150 4900
+F 0 "J13" H 8230 4892 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 4801 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 4900 50  0001 C CNN
+F 3 "~" H 8150 4900 50  0001 C CNN
+	1    8150 4900
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 4300 0    50   Input ~ 0
+Sens
+Text GLabel 7950 4400 0    50   Input ~ 0
+PWM
+Text GLabel 7950 4200 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0116
+U 1 1 5EE6FADC
+P 7950 4100
+F 0 "#PWR0116" H 7950 3850 50  0001 C CNN
+F 1 "GND" H 7955 3927 50  0000 C CNN
+F 2 "" H 7950 4100 50  0001 C CNN
+F 3 "" H 7950 4100 50  0001 C CNN
+	1    7950 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J12
+U 1 1 5EE6FAD6
+P 8150 4200
+F 0 "J12" H 8230 4192 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 4101 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 4200 50  0001 C CNN
+F 3 "~" H 8150 4200 50  0001 C CNN
+	1    8150 4200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 3650 0    50   Input ~ 0
+Sens
+Text GLabel 7950 3750 0    50   Input ~ 0
+PWM
+Text GLabel 7950 3550 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0117
+U 1 1 5EE6DF5A
+P 7950 3450
+F 0 "#PWR0117" H 7950 3200 50  0001 C CNN
+F 1 "GND" H 7955 3277 50  0000 C CNN
+F 2 "" H 7950 3450 50  0001 C CNN
+F 3 "" H 7950 3450 50  0001 C CNN
+	1    7950 3450
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J11
+U 1 1 5EE6DF54
+P 8150 3550
+F 0 "J11" H 8230 3542 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 3451 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 3550 50  0001 C CNN
+F 3 "~" H 8150 3550 50  0001 C CNN
+	1    8150 3550
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2950 0    50   Input ~ 0
+Sens
+Text GLabel 7950 3050 0    50   Input ~ 0
+PWM
+Text GLabel 7950 2850 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0118
+U 1 1 5EE6DF4B
+P 7950 2750
+F 0 "#PWR0118" H 7950 2500 50  0001 C CNN
+F 1 "GND" H 7955 2577 50  0000 C CNN
+F 2 "" H 7950 2750 50  0001 C CNN
+F 3 "" H 7950 2750 50  0001 C CNN
+	1    7950 2750
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J10
+U 1 1 5EE6DF45
+P 8150 2850
+F 0 "J10" H 8230 2842 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 2751 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 2850 50  0001 C CNN
+F 3 "~" H 8150 2850 50  0001 C CNN
+	1    8150 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 2300 0    50   Input ~ 0
+Sens
+Text GLabel 7950 2400 0    50   Input ~ 0
+PWM
+Text GLabel 7950 2200 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0119
+U 1 1 5EE699B9
+P 7950 2100
+F 0 "#PWR0119" H 7950 1850 50  0001 C CNN
+F 1 "GND" H 7955 1927 50  0000 C CNN
+F 2 "" H 7950 2100 50  0001 C CNN
+F 3 "" H 7950 2100 50  0001 C CNN
+	1    7950 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J9
+U 1 1 5EE699B3
+P 8150 2200
+F 0 "J9" H 8230 2192 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 2101 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 2200 50  0001 C CNN
+F 3 "~" H 8150 2200 50  0001 C CNN
+	1    8150 2200
+	1    0    0    -1  
+$EndComp
+Text GLabel 7950 1600 0    50   Input ~ 0
+Sens
+Text GLabel 7950 1700 0    50   Input ~ 0
+PWM
+Text GLabel 7950 1500 0    50   Input ~ 0
+VCC
+$Comp
+L power:GND #PWR0120
+U 1 1 5EE66DA5
+P 7950 1400
+F 0 "#PWR0120" H 7950 1150 50  0001 C CNN
+F 1 "GND" H 7955 1227 50  0000 C CNN
+F 2 "" H 7950 1400 50  0001 C CNN
+F 3 "" H 7950 1400 50  0001 C CNN
+	1    7950 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J8
+U 1 1 5EE660C6
+P 8150 1500
+F 0 "J8" H 8230 1492 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 1401 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 1500 50  0001 C CNN
+F 3 "~" H 8150 1500 50  0001 C CNN
+	1    8150 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J14
+U 1 1 5EE70BE0
+P 8150 5600
+F 0 "J14" H 8230 5592 50  0000 L CNN
+F 1 "Conn_01x04" H 8230 5501 50  0000 L CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770874-x_2x02_P4.14mm_Vertical" H 8150 5600 50  0001 C CNN
+F 3 "~" H 8150 5600 50  0001 C CNN
+	1    8150 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5EE70BE6
+P 7950 5500
+F 0 "#PWR0121" H 7950 5250 50  0001 C CNN
+F 1 "GND" H 7955 5327 50  0000 C CNN
+F 2 "" H 7950 5500 50  0001 C CNN
+F 3 "" H 7950 5500 50  0001 C CNN
+	1    7950 5500
+	-1   0    0    1   
+$EndComp
+Text GLabel 7950 5600 0    50   Input ~ 0
+VCC
+Text GLabel 7950 5800 0    50   Input ~ 0
+PWM
+Text GLabel 7950 5700 0    50   Input ~ 0
+Sens
+NoConn ~ 2450 5050
+NoConn ~ 2450 4050
+NoConn ~ 3900 4050
+NoConn ~ 2450 3050
+NoConn ~ 3900 3050
+NoConn ~ 2450 2050
+NoConn ~ 3900 2050
+$EndSCHEMATC
