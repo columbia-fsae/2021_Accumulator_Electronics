@@ -1442,4 +1442,45 @@ Text GLabel 2750 2350 0    50   Input ~ 0
 12V-fused
 Text Notes 2050 2250 0    50   ~ 0
 Reset option for "testing" only
+$Comp
+L Connector_Generic:Conn_01x02 J12
+U 1 1 5F16BD14
+P 9800 6100
+F 0 "J12" H 9718 5775 50  0000 C CNN
+F 1 "Energy Meter" H 9718 5866 50  0000 C CNN
+F 2 "" H 9800 6100 50  0001 C CNN
+F 3 "~" H 9800 6100 50  0001 C CNN
+	1    9800 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F16C94A
+P 10000 6100
+AR Path="/5E8356A3/5F16C94A" Ref="#PWR?"  Part="1" 
+AR Path="/5F16C94A" Ref="#PWR0103"  Part="1" 
+F 0 "#PWR0103" H 10000 5850 50  0001 C CNN
+F 1 "GND" V 10005 5972 50  0000 R CNN
+F 2 "" H 10000 6100 50  0001 C CNN
+F 3 "" H 10000 6100 50  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F6
+U 1 1 5F16D16E
+P 10250 6000
+F 0 "F6" V 10450 6000 50  0000 C CNN
+F 1 "Fuse" V 10350 6000 50  0000 C CNN
+F 2 "" V 10180 6000 50  0001 C CNN
+F 3 "~" H 10250 6000 50  0001 C CNN
+	1    10250 6000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10400 6000 2    50   Input ~ 0
+12V-fused
+Wire Wire Line
+	10100 6000 10000 6000
+Text Notes 9650 5700 0    50   ~ 0
+Energy Meter LV power
 $EndSCHEMATC

@@ -17,7 +17,7 @@ $Sheet
 S 3050 3550 1200 800 
 U 5F131378
 F0 "sheet5F131326" 50
-F1 "../2021 Accumulator Base PCB 1/7-14-2020/DCDC.sch" 50
+F1 "DCDC.sch" 50
 F2 "DCDC_ON" I L 3050 3950 50 
 F3 "Sens_Fans" I R 4250 3750 50 
 F4 "PWM_Fans" I R 4250 3950 50 
@@ -808,7 +808,7 @@ $Sheet
 S 5100 1000 2200 2000
 U 5F13151C
 F0 "sheet5F13132C" 50
-F1 "../2021 Accumulator Base PCB 1/7-14-2020/MCU+Drivers.sch" 50
+F1 "MCU+Drivers.sch" 50
 F2 "Discharge" I L 5100 1850 50 
 F3 "Sens_Fans" I L 5100 2350 50 
 F4 "PWM_Fans" I L 5100 2450 50 
@@ -879,7 +879,7 @@ $Sheet
 S 3050 5050 1450 800 
 U 5F13140A
 F0 "sheet5F13132B" 50
-F1 "../2021 Accumulator Base PCB 1/7-14-2020/Precharge-Discharge.sch" 50
+F1 "Precharge-Discharge.sch" 50
 F2 "Battery+" I L 3050 5100 50 
 F3 "Inverter+" I L 3050 5200 50 
 F4 "Inverter-" I L 3050 5300 50 
@@ -1442,4 +1442,45 @@ Text GLabel 2750 2350 0    50   Input ~ 0
 12V-fused
 Text Notes 2050 2250 0    50   ~ 0
 Reset option for "testing" only
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F16BD14
+P 9800 6100
+F 0 "J?" H 9718 5775 50  0000 C CNN
+F 1 "Energy Meter" H 9718 5866 50  0000 C CNN
+F 2 "" H 9800 6100 50  0001 C CNN
+F 3 "~" H 9800 6100 50  0001 C CNN
+	1    9800 6100
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F16C94A
+P 10000 6100
+AR Path="/5E8356A3/5F16C94A" Ref="#PWR?"  Part="1" 
+AR Path="/5F16C94A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 10000 5850 50  0001 C CNN
+F 1 "GND" V 10005 5972 50  0000 R CNN
+F 2 "" H 10000 6100 50  0001 C CNN
+F 3 "" H 10000 6100 50  0001 C CNN
+	1    10000 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5F16D16E
+P 10250 6000
+F 0 "F?" V 10450 6000 50  0000 C CNN
+F 1 "Fuse" V 10350 6000 50  0000 C CNN
+F 2 "" V 10180 6000 50  0001 C CNN
+F 3 "~" H 10250 6000 50  0001 C CNN
+	1    10250 6000
+	0    -1   -1   0   
+$EndComp
+Text GLabel 10400 6000 2    50   Input ~ 0
+12V-fused
+Wire Wire Line
+	10100 6000 10000 6000
+Text Notes 9650 5700 0    50   ~ 0
+Energy Meter LV power
 $EndSCHEMATC
