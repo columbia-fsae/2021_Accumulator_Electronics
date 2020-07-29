@@ -40,7 +40,7 @@ AR Path="/5E8356A3/5EC2A961/5EC3ADDF" Ref="F7"  Part="1"
 AR Path="/5F131378/5EC3ADDF" Ref="F3"  Part="1" 
 F 0 "F3" V 2053 2700 50  0000 C CNN
 F 1 "5A" V 2144 2700 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" V 2180 2700 50  0001 C CNN
+F 2 "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open" V 2180 2700 50  0001 C CNN
 F 3 "~" H 2250 2700 50  0001 C CNN
 	1    2250 2700
 	0    1    1    0   
@@ -71,7 +71,7 @@ AR Path="/5E8356A3/5EC2A961/5EC3C49C" Ref="C2"  Part="1"
 AR Path="/5F131378/5EC3C49C" Ref="C2"  Part="1" 
 F 0 "C2" H 3878 2496 50  0000 L CNN
 F 1 "10u" H 3878 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 3700 2450 50  0001 C CNN
+F 2 "EEV-EB2V100SM:CAPAE1700X1700N" H 3700 2450 50  0001 C CNN
 F 3 "~" H 3700 2450 50  0001 C CNN
 	1    3700 2450
 	1    0    0    -1  
@@ -92,7 +92,7 @@ AR Path="/5E8356A3/5EC2A961/5EC3D884" Ref="C1"  Part="1"
 AR Path="/5F131378/5EC3D884" Ref="C1"  Part="1" 
 F 0 "C1" H 2828 2496 50  0000 L CNN
 F 1 "1u" H 2828 2405 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 2650 2450 50  0001 C CNN
+F 2 "UVR2V010MED:CAPPRD250W50D655H1250" H 2650 2450 50  0001 C CNN
 F 3 "~" H 2650 2450 50  0001 C CNN
 	1    2650 2450
 	1    0    0    -1  
@@ -130,14 +130,14 @@ Wire Wire Line
 Wire Wire Line
 	3000 2700 2650 2700
 $Comp
-L Converter_DCDC:TEC2-1211WI U9
+L Converter_DCDC:NCS1S1212SC U9
 U 1 1 5EC472A5
 P 2800 3350
 AR Path="/5E8356A3/5EC2A961/5EC472A5" Ref="U9"  Part="1" 
 AR Path="/5F131378/5EC472A5" Ref="U6"  Part="1" 
 F 0 "U6" H 2800 3817 50  0000 C CNN
-F 1 "TEC2-1211WI" H 2800 3726 50  0000 C CNN
-F 2 "Converter_DCDC:Converter_DCDC_TRACO_TMR-xxxx_THT" H 2800 3000 50  0001 C CNN
+F 1 "NCS1S1212SC" H 2800 3726 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_Murata_NCS1SxxxxSC_THT" H 2800 3000 50  0001 C CNN
 F 3 "https://www.tracopower.com/products/tec2wi.pdf" H 2800 2850 50  0001 C CNN
 	1    2800 3350
 	1    0    0    -1  
@@ -184,7 +184,7 @@ AR Path="/5E8356A3/5EC2A961/5EC4BF60" Ref="C3"  Part="1"
 AR Path="/5F131378/5EC4BF60" Ref="C3"  Part="1" 
 F 0 "C3" H 4178 3396 50  0000 L CNN
 F 1 "10u" H 4178 3305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4000 3350 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4000 3350 50  0001 C CNN
 F 3 "~" H 4000 3350 50  0001 C CNN
 	1    4000 3350
 	1    0    0    -1  
@@ -221,7 +221,7 @@ F 1 "TS53YJ501MR10" H 6180 2495 50  0000 R CNN
 F 2 "Potentiometer_SMD:Potentiometer_Vishay_TS53YJ_Vertical" H 6250 2450 50  0001 C CNN
 F 3 "~" H 6250 2450 50  0001 C CNN
 	1    6250 2450
-	-1   0    0    1   
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 2450 6000 2450
@@ -262,8 +262,8 @@ P 9200 2900
 AR Path="/5E8356A3/5EC2A961/5EA1EAAD" Ref="J1"  Part="1" 
 AR Path="/5F131378/5EA1EAAD" Ref="J6"  Part="1" 
 F 0 "J6" H 9280 2892 50  0000 L CNN
-F 1 "Conn_01x04" H 9280 2801 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 9200 2900 50  0001 C CNN
+F 1 "Accu Cooling" H 9280 2801 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A_2x02_P4.20mm_Vertical" H 9200 2900 50  0001 C CNN
 F 3 "~" H 9200 2900 50  0001 C CNN
 	1    9200 2900
 	1    0    0    -1  
@@ -301,8 +301,8 @@ Wire Wire Line
 	4750 2450 4900 2450
 Wire Wire Line
 	4000 3100 4750 3100
-Text Notes 2450 3900 0    50   ~ 0
-This DCDC turns on/off the QHL300. QHL ON/OFF \nrequires signal referenced off HV-.
+Text Notes 1700 4500 0    79   ~ 0
+This DCDC turns on/off the QHL300. \n12V in pin 3 will turn the DCDC OFF and if pin 3 is left open it will be ON.\nQHL ON/OFF requires signal referenced off HV-.\nThe control signal will be analogically activated by a switch in the Dash.
 Text Notes 3150 3000 0    50   ~ 0
 transient voltage \nsuppressor diode
 Text Notes 7800 3000 0    50   ~ 0
