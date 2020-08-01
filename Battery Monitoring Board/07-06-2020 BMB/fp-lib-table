@@ -5,4 +5,5 @@
   (lib (name LTC6820IMS#PBF)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/LTC6820IMS#PBF/KiCad/LTC6820IMS#PBF.mod")(options "")(descr ""))
   (lib (name Arduino_Shield_Modules_for_KiCad_V3)(type KiCad)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/Arduino_Shield_Modules_for_KiCad_V3.pretty")(options "")(descr ""))
   (lib (name "Slave Board")(type KiCad)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/2021 EV Accumulator/Slave Board")(options "")(descr "")(disabled))
+  (lib (name 44764-0802)(type Legacy)(uri ${KIPRJMOD}/44764-0802/44764-0802.mod)(options "")(descr ""))
 )
