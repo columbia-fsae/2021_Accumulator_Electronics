@@ -1,4 +1,0 @@
-(fp_lib_table
-  (lib (name AMC1211AQDWVRQ1)(type Legacy)(uri ${KIPRJMOD}/AMC1211AQDWVRQ1/AMC1211AQDWVRQ1.mod)(options "")(descr ""))
-  (lib (name INA114AP)(type Legacy)(uri ${KIPRJMOD}/INA114AP/INA114AP.mod)(options "")(descr ""))
-)
