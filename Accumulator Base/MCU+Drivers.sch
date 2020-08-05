@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -635,14 +635,14 @@ Text GLabel 3600 4450 1    50   Input ~ 0
 DCDC_EN
 Text Notes 4750 650  0    50   ~ 0
 Coil model: TFM322512ALMA100MTAA
-Text HLabel 5950 2600 1    50   Input ~ 0
-RTD
-Text HLabel 5850 2600 1    50   Input ~ 0
-Reg_EN
 Text GLabel 4200 2600 1    50   Input ~ 0
 3.3V
 Text HLabel 6350 2900 3    50   Input ~ 0
 +5V
 Text HLabel 6350 4750 3    50   Input ~ 0
 GND
+Text HLabel 5950 2600 1    50   Input ~ 0
+RTD_accu
+Text HLabel 5850 2600 1    50   Input ~ 0
+Reg_EN
 $EndSCHEMATC

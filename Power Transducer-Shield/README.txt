@@ -1,14 +1,5 @@
-Include the following libraries from KiCAD Libraries folder:
+If all the CAD components can't be found in the 3D view is because some parts are referenced to a local folder
+in another system. They can be downladed from the "KiCAD Libraries" repository found in Sabin's CADLAB.io account.
+There is a link to such account in the team's GitHub, inside the "2021 Accumulator Electronics" repository.
 
-SYMBOL LIBRARIES:
-
-1) AMC1211AQDWVRQ1
-2) INA114AP
-
-FOOTPRINT LIBRARIES:
-
-1) AMC1211AQDWVRQ1
-2) INA114AP
-
-
-**A component was created out of this PCB. It can be found in KiCAD Libraries under "Power_Transducer"
+**A component was created out of this PCB. It can be found in this very folder under "Power Transducer Library"

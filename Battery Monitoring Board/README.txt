@@ -1,16 +1,3 @@
-Include the following libraries from KiCAD Libraries folder:
-
-SYMBOL LIBRARIES:
-
-1) arduino_shieldsNCL
-2) LTC6820IMS#PBF
-3) LTC6804-2
-4) arduino_micro_shield
-
-FOOTPRINT LIBRARIES:
-
-1) arduino_shields
-2) Arduino
-3) LTC6804-2
-4) LTC6820IMS#PBF
-5) Arduino_Shield_Modules_for_KiCad_V3
+If all the CAD components can't be found in the 3D view is because some parts are referenced to a local folder
+in another system. They can be downladed from the "KiCAD Libraries" repository found in Sabin's CADLAB.io account.
+There is a link to such account in the team's GitHub, inside the "2021 Accumulator Electronics" repository.

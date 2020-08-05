@@ -1,8 +1,0 @@
-(fp_lib_table
-  (lib (name 44764-0802)(type Legacy)(uri ${KIPRJMOD}/44764-0802/44764-0802.mod)(options "")(descr ""))
-  (lib (name Arduino)(type KiCad)(uri ${KIPRJMOD}/arduino-kicad-library-master/Arduino.pretty)(options "")(descr ""))
-  (lib (name Arduino_Shield_Modules_for_KiCad_V3)(type KiCad)(uri ${KIPRJMOD}/Arduino_Shield_Modules_for_KiCad_V3.pretty)(options "")(descr ""))
-  (lib (name arduino_shields)(type Legacy)(uri ${KIPRJMOD}/Arduino_Shield_Modules_for_KiCad_V3/arduino_shields.mod)(options "")(descr ""))
-  (lib (name LTC6804-2)(type Legacy)(uri ${KIPRJMOD}/LTC6804-2/LTC6804-2.mod)(options "")(descr ""))
-  (lib (name LTC6820IMS#PBF)(type Legacy)(uri ${KIPRJMOD}/LTC6820IMS#PBF/LTC6820IMS#PBF.mod)(options "")(descr ""))
-)

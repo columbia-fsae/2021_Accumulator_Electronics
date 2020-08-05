@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
-Sheet 2 2
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -22,7 +22,7 @@ L Comparator:LM393 U?
 U 3 1 5F17878F
 P 9450 6250
 AR Path="/5E8356A3/5EA2DC9A/5F17878F" Ref="U?"  Part="3" 
-AR Path="/5F17878F" Ref="U?"  Part="3" 
+AR Path="/5F17878F" Ref="U3"  Part="3" 
 AR Path="/5F165EA6/5F17878F" Ref="U?"  Part="3" 
 AR Path="/5F0851AA/5F17878F" Ref="U3"  Part="3" 
 F 0 "U3" H 9500 6500 50  0000 L CNN
@@ -37,7 +37,7 @@ L Comparator:LM393 U?
 U 1 1 5F178795
 P 9450 6250
 AR Path="/5E8356A3/5EA2DC9A/5F178795" Ref="U?"  Part="1" 
-AR Path="/5F178795" Ref="U?"  Part="1" 
+AR Path="/5F178795" Ref="U3"  Part="1" 
 AR Path="/5F165EA6/5F178795" Ref="U?"  Part="1" 
 AR Path="/5F0851AA/5F178795" Ref="U3"  Part="1" 
 F 0 "U3" H 9200 6650 50  0000 C CNN
@@ -52,7 +52,7 @@ L Device:R_Small R?
 U 1 1 5F17879D
 P 8900 5800
 AR Path="/5E8356A3/5EA2DC9A/5F17879D" Ref="R?"  Part="1" 
-AR Path="/5F17879D" Ref="R?"  Part="1" 
+AR Path="/5F17879D" Ref="R3"  Part="1" 
 AR Path="/5F165EA6/5F17879D" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F17879D" Ref="R3"  Part="1" 
 F 0 "R3" H 8959 5846 50  0000 L CNN
@@ -67,7 +67,7 @@ L Device:R_Small R?
 U 1 1 5F1787A3
 P 8900 6500
 AR Path="/5E8356A3/5EA2DC9A/5F1787A3" Ref="R?"  Part="1" 
-AR Path="/5F1787A3" Ref="R?"  Part="1" 
+AR Path="/5F1787A3" Ref="R4"  Part="1" 
 AR Path="/5F165EA6/5F1787A3" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F1787A3" Ref="R4"  Part="1" 
 F 0 "R4" H 8959 6546 50  0000 L CNN
@@ -86,7 +86,7 @@ L power:GND #PWR?
 U 1 1 5F1787AC
 P 11550 6950
 AR Path="/5E8356A3/5EA2DC9A/5F1787AC" Ref="#PWR?"  Part="1" 
-AR Path="/5F1787AC" Ref="#PWR?"  Part="1" 
+AR Path="/5F1787AC" Ref="#PWR0101"  Part="1" 
 AR Path="/5F165EA6/5F1787AC" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F1787AC" Ref="#PWR0101"  Part="1" 
 F 0 "#PWR0101" H 11550 6700 50  0001 C CNN
@@ -101,7 +101,7 @@ L power:+12V #PWR?
 U 1 1 5F1787BA
 P 11550 4400
 AR Path="/5E8356A3/5EA2DC9A/5F1787BA" Ref="#PWR?"  Part="1" 
-AR Path="/5F1787BA" Ref="#PWR?"  Part="1" 
+AR Path="/5F1787BA" Ref="#PWR0102"  Part="1" 
 AR Path="/5F165EA6/5F1787BA" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F1787BA" Ref="#PWR0102"  Part="1" 
 F 0 "#PWR0102" H 11550 4250 50  0001 C CNN
@@ -116,7 +116,7 @@ L Timer:LM555 U?
 U 1 1 5F1787C1
 P 10650 6050
 AR Path="/5E8356A3/5EA2DC9A/5F1787C1" Ref="U?"  Part="1" 
-AR Path="/5F1787C1" Ref="U?"  Part="1" 
+AR Path="/5F1787C1" Ref="U4"  Part="1" 
 AR Path="/5F165EA6/5F1787C1" Ref="U?"  Part="1" 
 AR Path="/5F0851AA/5F1787C1" Ref="U4"  Part="1" 
 F 0 "U4" H 10550 6500 50  0000 C CNN
@@ -137,7 +137,7 @@ L Device:R_Small R?
 U 1 1 5F1787CB
 P 11550 5800
 AR Path="/5E8356A3/5EA2DC9A/5F1787CB" Ref="R?"  Part="1" 
-AR Path="/5F1787CB" Ref="R?"  Part="1" 
+AR Path="/5F1787CB" Ref="R6"  Part="1" 
 AR Path="/5F165EA6/5F1787CB" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F1787CB" Ref="R6"  Part="1" 
 F 0 "R6" H 11609 5846 50  0000 L CNN
@@ -152,7 +152,7 @@ L Device:R_Small R?
 U 1 1 5F1787D1
 P 11550 6300
 AR Path="/5E8356A3/5EA2DC9A/5F1787D1" Ref="R?"  Part="1" 
-AR Path="/5F1787D1" Ref="R?"  Part="1" 
+AR Path="/5F1787D1" Ref="R7"  Part="1" 
 AR Path="/5F165EA6/5F1787D1" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F1787D1" Ref="R7"  Part="1" 
 F 0 "R7" H 11609 6346 50  0000 L CNN
@@ -167,7 +167,7 @@ L Device:C_Small C?
 U 1 1 5F1787D7
 P 11550 6650
 AR Path="/5E8356A3/5EA2DC9A/5F1787D7" Ref="C?"  Part="1" 
-AR Path="/5F1787D7" Ref="C?"  Part="1" 
+AR Path="/5F1787D7" Ref="C6"  Part="1" 
 AR Path="/5F165EA6/5F1787D7" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F1787D7" Ref="C6"  Part="1" 
 F 0 "C6" H 11642 6696 50  0000 L CNN
@@ -210,7 +210,7 @@ L power:GND #PWR?
 U 1 1 5F1787FB
 P 10000 3100
 AR Path="/5E8356A3/5EA2DC9A/5F1787FB" Ref="#PWR?"  Part="1" 
-AR Path="/5F1787FB" Ref="#PWR?"  Part="1" 
+AR Path="/5F1787FB" Ref="#PWR0103"  Part="1" 
 AR Path="/5F165EA6/5F1787FB" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F1787FB" Ref="#PWR0103"  Part="1" 
 F 0 "#PWR0103" H 10000 2850 50  0001 C CNN
@@ -252,7 +252,7 @@ L Device:R_Small R?
 U 1 1 5F178847
 P 12050 6500
 AR Path="/5E8356A3/5EA2DC9A/5F178847" Ref="R?"  Part="1" 
-AR Path="/5F178847" Ref="R?"  Part="1" 
+AR Path="/5F178847" Ref="R8"  Part="1" 
 AR Path="/5F165EA6/5F178847" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F178847" Ref="R8"  Part="1" 
 F 0 "R8" H 11850 6550 50  0000 L CNN
@@ -269,7 +269,7 @@ L Device:R_Small R?
 U 1 1 5F178857
 P 13900 4950
 AR Path="/5E8356A3/5EA2DC9A/5F178857" Ref="R?"  Part="1" 
-AR Path="/5F178857" Ref="R?"  Part="1" 
+AR Path="/5F178857" Ref="R9"  Part="1" 
 AR Path="/5F165EA6/5F178857" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F178857" Ref="R9"  Part="1" 
 F 0 "R9" H 13959 4996 50  0000 L CNN
@@ -291,7 +291,7 @@ L Regulator_Linear:LR8K4-G U?
 U 1 1 5F178867
 P 4950 3800
 AR Path="/5E8356A3/5EA2DC9A/5F178867" Ref="U?"  Part="1" 
-AR Path="/5F178867" Ref="U?"  Part="1" 
+AR Path="/5F178867" Ref="U1"  Part="1" 
 AR Path="/5F165EA6/5F178867" Ref="U?"  Part="1" 
 AR Path="/5F0851AA/5F178867" Ref="U1"  Part="1" 
 F 0 "U1" H 4950 4067 50  0000 C CNN
@@ -306,7 +306,7 @@ L Device:C_Small C?
 U 1 1 5F17886D
 P 4300 4200
 AR Path="/5E8356A3/5EA2DC9A/5F17886D" Ref="C?"  Part="1" 
-AR Path="/5F17886D" Ref="C?"  Part="1" 
+AR Path="/5F17886D" Ref="C1"  Part="1" 
 AR Path="/5F165EA6/5F17886D" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F17886D" Ref="C1"  Part="1" 
 F 0 "C1" H 4400 4200 50  0000 L CNN
@@ -321,7 +321,7 @@ L pspice:DIODE D?
 U 1 1 5F178873
 P 6200 3800
 AR Path="/5E8356A3/5EA2DC9A/5F178873" Ref="D?"  Part="1" 
-AR Path="/5F178873" Ref="D?"  Part="1" 
+AR Path="/5F178873" Ref="D3"  Part="1" 
 AR Path="/5F165EA6/5F178873" Ref="D?"  Part="1" 
 AR Path="/5F0851AA/5F178873" Ref="D3"  Part="1" 
 F 0 "D3" H 6200 4065 50  0000 C CNN
@@ -336,7 +336,7 @@ L Device:C_Small C?
 U 1 1 5F178879
 P 5900 4000
 AR Path="/5E8356A3/5EA2DC9A/5F178879" Ref="C?"  Part="1" 
-AR Path="/5F178879" Ref="C?"  Part="1" 
+AR Path="/5F178879" Ref="C2"  Part="1" 
 AR Path="/5F165EA6/5F178879" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F178879" Ref="C2"  Part="1" 
 F 0 "C2" H 6000 4000 50  0000 L CNN
@@ -351,7 +351,7 @@ L Device:R R?
 U 1 1 5F17887F
 P 5500 4000
 AR Path="/5E8356A3/5EA2DC9A/5F17887F" Ref="R?"  Part="1" 
-AR Path="/5F17887F" Ref="R?"  Part="1" 
+AR Path="/5F17887F" Ref="R2"  Part="1" 
 AR Path="/5F165EA6/5F17887F" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F17887F" Ref="R2"  Part="1" 
 F 0 "R2" H 5430 3954 50  0000 R CNN
@@ -366,7 +366,7 @@ L Device:R R?
 U 1 1 5F178885
 P 4950 4350
 AR Path="/5E8356A3/5EA2DC9A/5F178885" Ref="R?"  Part="1" 
-AR Path="/5F178885" Ref="R?"  Part="1" 
+AR Path="/5F178885" Ref="R1"  Part="1" 
 AR Path="/5F165EA6/5F178885" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F178885" Ref="R1"  Part="1" 
 F 0 "R1" H 4880 4304 50  0000 R CNN
@@ -381,7 +381,7 @@ L pspice:DIODE D?
 U 1 1 5F17888B
 P 3200 4150
 AR Path="/5E8356A3/5EA2DC9A/5F17888B" Ref="D?"  Part="1" 
-AR Path="/5F17888B" Ref="D?"  Part="1" 
+AR Path="/5F17888B" Ref="D1"  Part="1" 
 AR Path="/5F165EA6/5F17888B" Ref="D?"  Part="1" 
 AR Path="/5F0851AA/5F17888B" Ref="D1"  Part="1" 
 F 0 "D1" V 3246 4022 50  0000 R CNN
@@ -396,7 +396,7 @@ L Device:D_Zener D?
 U 1 1 5F178891
 P 3950 3800
 AR Path="/5E8356A3/5EA2DC9A/5F178891" Ref="D?"  Part="1" 
-AR Path="/5F178891" Ref="D?"  Part="1" 
+AR Path="/5F178891" Ref="D2"  Part="1" 
 AR Path="/5F165EA6/5F178891" Ref="D?"  Part="1" 
 AR Path="/5F0851AA/5F178891" Ref="D2"  Part="1" 
 F 0 "D2" H 3950 4016 50  0000 C CNN
@@ -411,7 +411,7 @@ L Device:Fuse F?
 U 1 1 5F178897
 P 6650 3800
 AR Path="/5E8356A3/5EA2DC9A/5F178897" Ref="F?"  Part="1" 
-AR Path="/5F178897" Ref="F?"  Part="1" 
+AR Path="/5F178897" Ref="F1"  Part="1" 
 AR Path="/5F165EA6/5F178897" Ref="F?"  Part="1" 
 AR Path="/5F0851AA/5F178897" Ref="F1"  Part="1" 
 F 0 "F1" V 6453 3800 50  0000 C CNN
@@ -459,7 +459,7 @@ L Regulator_Switching:CRE1S0505DC U?
 U 1 1 5F1788BC
 P 7700 4150
 AR Path="/5E8356A3/5EA2DC9A/5F1788BC" Ref="U?"  Part="1" 
-AR Path="/5F1788BC" Ref="U?"  Part="1" 
+AR Path="/5F1788BC" Ref="U2"  Part="1" 
 AR Path="/5F165EA6/5F1788BC" Ref="U?"  Part="1" 
 AR Path="/5F0851AA/5F1788BC" Ref="U2"  Part="1" 
 F 0 "U2" H 7700 4617 50  0000 C CNN
@@ -474,7 +474,7 @@ L Device:C_Small C?
 U 1 1 5F1788C2
 P 6950 4150
 AR Path="/5E8356A3/5EA2DC9A/5F1788C2" Ref="C?"  Part="1" 
-AR Path="/5F1788C2" Ref="C?"  Part="1" 
+AR Path="/5F1788C2" Ref="C3"  Part="1" 
 AR Path="/5F165EA6/5F1788C2" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F1788C2" Ref="C3"  Part="1" 
 F 0 "C3" H 7050 4150 50  0000 L CNN
@@ -489,7 +489,7 @@ L Device:C_Small C?
 U 1 1 5F1788C8
 P 8400 4150
 AR Path="/5E8356A3/5EA2DC9A/5F1788C8" Ref="C?"  Part="1" 
-AR Path="/5F1788C8" Ref="C?"  Part="1" 
+AR Path="/5F1788C8" Ref="C4"  Part="1" 
 AR Path="/5F165EA6/5F1788C8" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F1788C8" Ref="C4"  Part="1" 
 F 0 "C4" H 8500 4150 50  0000 L CNN
@@ -527,7 +527,7 @@ L power:GND #PWR?
 U 1 1 5F1788DC
 P 8400 4450
 AR Path="/5E8356A3/5EA2DC9A/5F1788DC" Ref="#PWR?"  Part="1" 
-AR Path="/5F1788DC" Ref="#PWR?"  Part="1" 
+AR Path="/5F1788DC" Ref="#PWR0104"  Part="1" 
 AR Path="/5F165EA6/5F1788DC" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F1788DC" Ref="#PWR0104"  Part="1" 
 F 0 "#PWR0104" H 8400 4200 50  0001 C CNN
@@ -601,7 +601,7 @@ L Device:R_Small R?
 U 1 1 5F1787ED
 P 9650 3000
 AR Path="/5E8356A3/5EA2DC9A/5F1787ED" Ref="R?"  Part="1" 
-AR Path="/5F1787ED" Ref="R?"  Part="1" 
+AR Path="/5F1787ED" Ref="R5"  Part="1" 
 AR Path="/5F165EA6/5F1787ED" Ref="R?"  Part="1" 
 AR Path="/5F0851AA/5F1787ED" Ref="R5"  Part="1" 
 F 0 "R5" V 9454 3000 50  0000 C CNN
@@ -630,7 +630,7 @@ L Device:C_Small C?
 U 1 1 5F1B5517
 P 10100 6550
 AR Path="/5E8356A3/5EA2DC9A/5F1B5517" Ref="C?"  Part="1" 
-AR Path="/5F1B5517" Ref="C?"  Part="1" 
+AR Path="/5F1B5517" Ref="C5"  Part="1" 
 AR Path="/5F165EA6/5F1B5517" Ref="C?"  Part="1" 
 AR Path="/5F0851AA/5F1B5517" Ref="C5"  Part="1" 
 F 0 "C5" H 10192 6596 50  0000 L CNN
@@ -763,7 +763,7 @@ L power:+12V #PWR?
 U 1 1 5F0F27D1
 P 13050 3400
 AR Path="/5E8356A3/5EA2DC9A/5F0F27D1" Ref="#PWR?"  Part="1" 
-AR Path="/5F0F27D1" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F27D1" Ref="#PWR0105"  Part="1" 
 AR Path="/5F165EA6/5F0F27D1" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F0F27D1" Ref="#PWR0105"  Part="1" 
 F 0 "#PWR0105" H 13050 3250 50  0001 C CNN
@@ -778,7 +778,7 @@ L power:GND #PWR?
 U 1 1 5F0F2E8E
 P 12850 3500
 AR Path="/5E8356A3/5EA2DC9A/5F0F2E8E" Ref="#PWR?"  Part="1" 
-AR Path="/5F0F2E8E" Ref="#PWR?"  Part="1" 
+AR Path="/5F0F2E8E" Ref="#PWR0106"  Part="1" 
 AR Path="/5F165EA6/5F0F2E8E" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F0F2E8E" Ref="#PWR0106"  Part="1" 
 F 0 "#PWR0106" H 12850 3250 50  0001 C CNN
@@ -807,7 +807,7 @@ L power:GND #PWR?
 U 1 1 5F0A7D0D
 P 13500 6500
 AR Path="/5E8356A3/5EA2DC9A/5F0A7D0D" Ref="#PWR?"  Part="1" 
-AR Path="/5F0A7D0D" Ref="#PWR?"  Part="1" 
+AR Path="/5F0A7D0D" Ref="#PWR0107"  Part="1" 
 AR Path="/5F165EA6/5F0A7D0D" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F0A7D0D" Ref="#PWR0107"  Part="1" 
 F 0 "#PWR0107" H 13500 6250 50  0001 C CNN
@@ -822,7 +822,7 @@ L power:+12V #PWR?
 U 1 1 5F0B2908
 P 12300 4850
 AR Path="/5E8356A3/5EA2DC9A/5F0B2908" Ref="#PWR?"  Part="1" 
-AR Path="/5F0B2908" Ref="#PWR?"  Part="1" 
+AR Path="/5F0B2908" Ref="#PWR0108"  Part="1" 
 AR Path="/5F165EA6/5F0B2908" Ref="#PWR?"  Part="1" 
 AR Path="/5F0851AA/5F0B2908" Ref="#PWR0108"  Part="1" 
 F 0 "#PWR0108" H 12300 4700 50  0001 C CNN

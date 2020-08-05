@@ -1,5 +1,4 @@
 (fp_lib_table
-  (lib (name INA114AP)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/INA114AP/KiCad/INA114AP.mod")(options "")(descr ""))
-  (lib (name AMC1211AQDWVRQ1)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/AMC1211AQDWVRQ1/KiCad/AMC1211AQDWVRQ1.mod")(options "")(descr ""))
-  (lib (name Power_Transducer)(type KiCad)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/Power_Transducer")(options "")(descr ""))
+  (lib (name AMC1211AQDWVRQ1)(type Legacy)(uri ${KIPRJMOD}/AMC1211AQDWVRQ1/AMC1211AQDWVRQ1.mod)(options "")(descr ""))
+  (lib (name INA114AP)(type Legacy)(uri ${KIPRJMOD}/INA114AP/INA114AP.mod)(options "")(descr ""))
 )

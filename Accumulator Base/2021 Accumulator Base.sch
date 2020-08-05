@@ -508,90 +508,53 @@ Text GLabel 5100 1100 0    50   Input ~ 0
 SDC_out
 Text GLabel 1050 1950 1    50   Input ~ 0
 TS_Ready
-Text GLabel 9450 1000 0    50   Input ~ 0
-TS_Ready
 Text GLabel 9450 900  0    50   Input ~ 0
 DCDC_ON
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5F23AD1F
-P 10100 4650
+P 10150 4750
 AR Path="/5F13140A/5F23AD1F" Ref="Q?"  Part="1" 
 AR Path="/5F23AD1F" Ref="Q6"  Part="1" 
-F 0 "Q6" H 10300 4650 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 10300 4550 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 10300 4750 50  0001 C CNN
-F 3 "~" H 10100 4650 50  0001 C CNN
-	1    10100 4650
+F 0 "Q6" H 10350 4750 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 10350 4650 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 10350 4850 50  0001 C CNN
+F 3 "~" H 10150 4750 50  0001 C CNN
+	1    10150 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F25E623
-P 10200 4850
+P 10250 4950
 AR Path="/5E8356A3/5F25E623" Ref="#PWR?"  Part="1" 
 AR Path="/5F25E623" Ref="#PWR0102"  Part="1" 
-F 0 "#PWR0102" H 10200 4600 50  0001 C CNN
-F 1 "GND" V 10205 4722 50  0000 R CNN
-F 2 "" H 10200 4850 50  0001 C CNN
-F 3 "" H 10200 4850 50  0001 C CNN
-	1    10200 4850
+F 0 "#PWR0102" H 10250 4700 50  0001 C CNN
+F 1 "GND" V 10255 4822 50  0000 R CNN
+F 2 "" H 10250 4950 50  0001 C CNN
+F 3 "" H 10250 4950 50  0001 C CNN
+	1    10250 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F28079E
-P 10350 4450
+P 10400 4550
 AR Path="/5E8356A3/5F28079E" Ref="R?"  Part="1" 
 AR Path="/5F28079E" Ref="R14"  Part="1" 
-F 0 "R14" V 10450 4450 50  0000 C CNN
-F 1 "2k" V 10234 4450 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 10280 4450 50  0001 C CNN
-F 3 "~" H 10350 4450 50  0001 C CNN
-	1    10350 4450
+F 0 "R14" V 10500 4550 50  0000 C CNN
+F 1 "2k" V 10284 4550 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10330 4550 50  0001 C CNN
+F 3 "~" H 10400 4550 50  0001 C CNN
+	1    10400 4550
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10500 4450 2    50   Input ~ 0
+Text GLabel 10550 4550 2    50   Input ~ 0
 12V-fused
-Text GLabel 10200 4450 0    50   Input ~ 0
+Text GLabel 10250 4550 0    50   Input ~ 0
 SDC_open
 Text GLabel 4900 2750 0    50   Input ~ 0
 5V-fused
-$Sheet
-S 5100 1000 2200 2000
-U 5F13151C
-F0 "sheet5F13132C" 50
-F1 "MCU+Drivers.sch" 50
-F2 "Discharge" I L 5100 1850 50 
-F3 "Sens_Fans" I L 5100 2350 50 
-F4 "PWM_Fans" I L 5100 2450 50 
-F5 "HV_Sens" I R 7300 2450 50 
-F6 "CANH" I R 7300 1200 50 
-F7 "CANL" I R 7300 1100 50 
-F8 "IMD-output" I R 7300 2700 50 
-F9 "IMD-MHS" I R 7300 2900 50 
-F10 "IMD-MLS" I R 7300 2800 50 
-F11 "AIR+-welded-closed" I R 7300 1350 50 
-F12 "AIR--welded-closed" I R 7300 1450 50 
-F13 "Current_Sens_High" I R 7300 2250 50 
-F14 "Current_Sens_Low" I R 7300 2350 50 
-F15 "GND" I L 5100 2650 50 
-F16 "Precharge" I L 5100 1750 50 
-F17 "TS_Ready" I L 5100 1950 50 
-F18 "MCU-AIR+" I L 5100 2050 50 
-F19 "BMS_Fault" I R 7300 1850 50 
-F20 "SDC_out" I L 5100 1100 50 
-F21 "+5V" I L 5100 2750 50 
-F22 "Safe_out" I L 5100 1500 50 
-F23 "Safe_in" I L 5100 1600 50 
-F24 "Reset" I L 5100 2200 50 
-F25 "DCDC_ON" I R 7300 1650 50 
-F26 "HVD_Charger" I L 5100 1200 50 
-F27 "Charger_TSMP" I L 5100 1300 50 
-F28 "TSMP_Inv" I L 5100 1400 50 
-F29 "RTD" I R 7300 2000 50 
-F30 "Reg_EN" I R 7300 2100 50 
-$EndSheet
 Wire Wire Line
 	4900 2750 5100 2750
 Text GLabel 5000 5700 1    50   Input ~ 0
@@ -666,7 +629,7 @@ Text Notes 10050 1550 0    50   ~ 0
 Water Pump\n\n
 Text Notes 10050 1350 0    50   ~ 0
 Radiator Fan\n\n
-Text GLabel 10900 1000 0    50   Input ~ 0
+Text GLabel 10900 1700 0    50   Input ~ 0
 Green+
 Text GLabel 10900 900  0    50   Input ~ 0
 Red-
@@ -713,9 +676,9 @@ F 3 "" H 10900 1600 50  0001 C CNN
 	1    10900 1600
 	0    1    1    0   
 $EndComp
-Text GLabel 10900 1700 0    50   Input ~ 0
+Text GLabel 10900 1000 0    50   Input ~ 0
 DCDC+
-Text Notes 10050 1650 0    50   ~ 0
+Text Notes 10050 1050 0    50   ~ 0
 DCDC Aux
 Text GLabel 4050 1500 0    50   Input ~ 0
 Safe_out
@@ -880,7 +843,7 @@ Text Notes 9350 650  0    50   ~ 0
 Dash connections
 Text GLabel 9450 1400 0    50   Input ~ 0
 SDC_open
-Text GLabel 9600 4650 0    50   Input ~ 0
+Text GLabel 9650 4750 0    50   Input ~ 0
 Safe_in
 $Comp
 L Connector_Generic:Conn_01x02 J4
@@ -1022,38 +985,38 @@ F 3 "~" H 9950 1300 50  0001 C CNN
 	1    9950 1300
 	1    0    0    -1  
 $EndComp
-Text GLabel 10150 3700 0    50   Input ~ 0
+Text GLabel 10600 3700 0    50   Input ~ 0
 CAN-H
-Text GLabel 10150 4200 0    50   Input ~ 0
+Text GLabel 10600 4200 0    50   Input ~ 0
 CAN-L
 Wire Wire Line
-	10300 4200 10150 4200
+	10750 4200 10600 4200
 $Comp
 L Device:R R?
 U 1 1 5F1C8C7B
-P 10300 4050
+P 10750 4050
 AR Path="/5E8356A3/5F1C8C7B" Ref="R?"  Part="1" 
 AR Path="/5F1C8C7B" Ref="R16"  Part="1" 
-F 0 "R16" V 10093 4050 50  0000 C CNN
-F 1 "120" V 10184 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 10230 4050 50  0001 C CNN
-F 3 "~" H 10300 4050 50  0001 C CNN
-	1    10300 4050
+F 0 "R16" V 10543 4050 50  0000 C CNN
+F 1 "120" V 10634 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 10680 4050 50  0001 C CNN
+F 3 "~" H 10750 4050 50  0001 C CNN
+	1    10750 4050
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5F1A0E03
-P 10500 3700
-F 0 "J11" H 10580 3692 50  0000 L CNN
-F 1 "Jumper" H 10580 3601 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10500 3700 50  0001 C CNN
-F 3 "~" H 10500 3700 50  0001 C CNN
-	1    10500 3700
+P 10950 3700
+F 0 "J11" H 11030 3692 50  0000 L CNN
+F 1 "Jumper" H 10950 3500 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10950 3700 50  0001 C CNN
+F 3 "~" H 10950 3700 50  0001 C CNN
+	1    10950 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10300 3800 10300 3900
+	10750 3800 10750 3900
 Wire Wire Line
 	10450 2850 10450 3050
 Text GLabel 7800 3100 2    50   Input ~ 0
@@ -1072,17 +1035,6 @@ Text GLabel 3000 1000 0    50   Input ~ 0
 12V-fused
 Text Notes 3050 4900 0    50   ~ 0
 Components to be mounted onto PCB
-$Comp
-L Device:R_US R30
-U 1 1 5F277ACE
-P 9600 1000
-F 0 "R30" V 9600 1200 50  0000 C CNN
-F 1 "R_US" V 9486 1000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0617_L17.0mm_D6.0mm_P20.32mm_Horizontal" V 9640 990 50  0001 C CNN
-F 3 "~" H 9600 1000 50  0001 C CNN
-	1    9600 1000
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:R_US R31
 U 1 1 5F278764
@@ -1298,7 +1250,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 3050 10150 3050
 Wire Wire Line
-	10150 3700 10300 3700
+	10600 3700 10750 3700
 Text GLabel 10900 2300 0    50   Input ~ 0
 CAN-H
 Text GLabel 10900 2400 0    50   Input ~ 0
@@ -1340,19 +1292,6 @@ F 1 "GND" V 3005 1372 50  0000 R CNN
 F 2 "" H 3000 1500 50  0001 C CNN
 F 3 "" H 3000 1500 50  0001 C CNN
 	1    3000 1500
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5F20C951
-P 9750 1800
-AR Path="/5E8356A3/5F20C951" Ref="#PWR?"  Part="1" 
-AR Path="/5F20C951" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 9750 1550 50  0001 C CNN
-F 1 "GND" V 9755 1672 50  0000 R CNN
-F 2 "" H 9750 1800 50  0001 C CNN
-F 3 "" H 9750 1800 50  0001 C CNN
-	1    9750 1800
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1411,8 +1350,8 @@ F 3 "" H 2100 1400 50  0001 C CNN
 	1    2100 1400
 	0    1    1    0   
 $EndComp
-Text Notes 1450 600  0    50   ~ 0
-Inverter&Motor connections
+Text Notes 1650 600  0    50   ~ 0
+Inverter connections
 $Comp
 L power:GND #PWR?
 U 1 1 5F37E6D8
@@ -1429,56 +1368,54 @@ F 3 "" H 10900 2200 50  0001 C CNN
 $EndComp
 Text GLabel 10900 2500 0    50   Input ~ 0
 12V-fused
-Text GLabel 7300 2000 2    50   Input ~ 0
-RTD
-Text GLabel 7300 2100 2    50   Input ~ 0
-Reg_EN
+Text GLabel 9450 1000 0    50   Input ~ 0
+RTD_dash
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5F3BDA70
-P 900 6850
+P 900 6900
 AR Path="/5F13140A/5F3BDA70" Ref="Q?"  Part="1" 
 AR Path="/5F3BDA70" Ref="Q8"  Part="1" 
-F 0 "Q8" H 1104 6896 50  0000 L CNN
-F 1 "Q_NMOS_GDS" H 1104 6805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-252-2" H 1100 6950 50  0001 C CNN
-F 3 "~" H 900 6850 50  0001 C CNN
-	1    900  6850
+F 0 "Q8" H 1104 6946 50  0000 L CNN
+F 1 "Q_NMOS_GDS" H 1104 6855 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 1100 7000 50  0001 C CNN
+F 3 "~" H 900 6900 50  0001 C CNN
+	1    900  6900
 	0    -1   1    0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5F3BDA77
-P 1100 6700
+P 1100 6750
 AR Path="/5F13151C/5F3BDA77" Ref="R?"  Part="1" 
 AR Path="/5F3BDA77" Ref="R13"  Part="1" 
-F 0 "R13" V 1200 6650 50  0000 L CNN
-F 1 "10k" V 1000 6650 50  0000 L CNN
-F 2 "Resistor_SMD:R_1206_3216Metric" V 1030 6700 50  0001 C CNN
-F 3 "~" H 1100 6700 50  0001 C CNN
-	1    1100 6700
+F 0 "R13" V 1200 6700 50  0000 L CNN
+F 1 "10k" V 1000 6700 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric" V 1030 6750 50  0001 C CNN
+F 3 "~" H 1100 6750 50  0001 C CNN
+	1    1100 6750
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F3BDA7D
-P 1100 6550
+P 1100 6600
 AR Path="/5E8356A3/5F3BDA7D" Ref="#PWR?"  Part="1" 
 AR Path="/5F3BDA7D" Ref="#PWR0122"  Part="1" 
-F 0 "#PWR0122" H 1100 6300 50  0001 C CNN
-F 1 "GND" V 1105 6422 50  0000 R CNN
-F 2 "" H 1100 6550 50  0001 C CNN
-F 3 "" H 1100 6550 50  0001 C CNN
-	1    1100 6550
+F 0 "#PWR0122" H 1100 6350 50  0001 C CNN
+F 1 "GND" V 1105 6472 50  0000 R CNN
+F 2 "" H 1100 6600 50  0001 C CNN
+F 3 "" H 1100 6600 50  0001 C CNN
+	1    1100 6600
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1100 6950 1100 6850
-Text GLabel 700  6950 3    50   Input ~ 0
+	1100 7000 1100 6900
+Text GLabel 700  7000 3    50   Input ~ 0
 12V-fused
-Text GLabel 900  6000 1    50   Input ~ 0
-RTD
-Text GLabel 1100 6950 3    50   Input ~ 0
+Text GLabel 900  6050 1    50   Input ~ 0
+RTD_in
+Text GLabel 1100 7000 3    50   Input ~ 0
 RTD_ON
 $Comp
 L 74xx:74HC86 U1
@@ -1526,7 +1463,7 @@ L Connector_Generic:Conn_01x10 J10
 U 1 1 5F23F313
 P 2300 1100
 F 0 "J10" H 2400 1100 50  0000 L CNN
-F 1 "Inverter&Motor" H 2000 500 50  0000 L CNN
+F 1 "Inverter" H 2150 500 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical" H 2300 1100 50  0001 C CNN
 F 3 "~" H 2300 1100 50  0001 C CNN
 	1    2300 1100
@@ -1581,19 +1518,6 @@ Text GLabel 750  650  2    50   Input ~ 0
 5V-fused
 Text GLabel 2100 1600 0    50   Input ~ 0
 Reg_ON
-$Comp
-L power:GND #PWR?
-U 1 1 5F4138ED
-P 2100 700
-AR Path="/5E8356A3/5F4138ED" Ref="#PWR?"  Part="1" 
-AR Path="/5F4138ED" Ref="#PWR0125"  Part="1" 
-F 0 "#PWR0125" H 2100 450 50  0001 C CNN
-F 1 "GND" V 2105 572 50  0000 R CNN
-F 2 "" H 2100 700 50  0001 C CNN
-F 3 "" H 2100 700 50  0001 C CNN
-	1    2100 700 
-	0    1    1    0   
-$EndComp
 $Comp
 L CUFR-Full-Library:SDC U?
 U 1 1 5F36299A
@@ -1669,30 +1593,30 @@ $EndComp
 $Comp
 L pspice:C C10
 U 1 1 5F4A4750
-P 1150 6050
-F 0 "C10" H 1250 6050 50  0000 L CNN
-F 1 "100n" H 850 6050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1150 6050 50  0001 C CNN
-F 3 "~" H 1150 6050 50  0001 C CNN
-	1    1150 6050
+P 1150 6100
+F 0 "C10" H 1250 6100 50  0000 L CNN
+F 1 "100n" H 850 6100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1150 6100 50  0001 C CNN
+F 3 "~" H 1150 6100 50  0001 C CNN
+	1    1150 6100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	900  6000 900  6050
-Connection ~ 900  6050
+	900  6050 900  6100
+Connection ~ 900  6100
 Wire Wire Line
-	900  6050 900  6650
+	900  6100 900  6700
 $Comp
 L power:GND #PWR?
 U 1 1 5F4B307F
-P 1400 6050
+P 1400 6100
 AR Path="/5E8356A3/5F4B307F" Ref="#PWR?"  Part="1" 
 AR Path="/5F4B307F" Ref="#PWR0127"  Part="1" 
-F 0 "#PWR0127" H 1400 5800 50  0001 C CNN
-F 1 "GND" V 1405 5922 50  0000 R CNN
-F 2 "" H 1400 6050 50  0001 C CNN
-F 3 "" H 1400 6050 50  0001 C CNN
-	1    1400 6050
+F 0 "#PWR0127" H 1400 5850 50  0001 C CNN
+F 1 "GND" V 1405 5972 50  0000 R CNN
+F 2 "" H 1400 6100 50  0001 C CNN
+F 3 "" H 1400 6100 50  0001 C CNN
+	1    1400 6100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -1702,29 +1626,29 @@ Wire Wire Line
 $Comp
 L pspice:C C14
 U 1 1 5F4BB322
-P 9600 4900
-F 0 "C14" H 9778 4946 50  0000 L CNN
-F 1 "100n" H 9778 4855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9600 4900 50  0001 C CNN
-F 3 "~" H 9600 4900 50  0001 C CNN
-	1    9600 4900
+P 9650 5000
+F 0 "C14" H 9828 5046 50  0000 L CNN
+F 1 "100n" H 9828 4955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9650 5000 50  0001 C CNN
+F 3 "~" H 9650 5000 50  0001 C CNN
+	1    9650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F4BC1FA
-P 9600 5150
+P 9650 5250
 AR Path="/5E8356A3/5F4BC1FA" Ref="#PWR?"  Part="1" 
 AR Path="/5F4BC1FA" Ref="#PWR0128"  Part="1" 
-F 0 "#PWR0128" H 9600 4900 50  0001 C CNN
-F 1 "GND" V 9605 5022 50  0000 R CNN
-F 2 "" H 9600 5150 50  0001 C CNN
-F 3 "" H 9600 5150 50  0001 C CNN
-	1    9600 5150
+F 0 "#PWR0128" H 9650 5000 50  0001 C CNN
+F 1 "GND" V 9655 5122 50  0000 R CNN
+F 2 "" H 9650 5250 50  0001 C CNN
+F 3 "" H 9650 5250 50  0001 C CNN
+	1    9650 5250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9600 4650 9900 4650
+	9650 4750 9950 4750
 $Comp
 L pspice:C C12
 U 1 1 5F4C355B
@@ -1796,4 +1720,109 @@ Wire Wire Line
 	7800 2350 7800 3150
 Wire Wire Line
 	7700 3100 7700 2450
+$Sheet
+S 5100 1000 2200 2000
+U 5F13151C
+F0 "sheet5F13132C" 50
+F1 "MCU+Drivers.sch" 50
+F2 "Discharge" I L 5100 1850 50 
+F3 "Sens_Fans" I L 5100 2350 50 
+F4 "PWM_Fans" I L 5100 2450 50 
+F5 "HV_Sens" I R 7300 2450 50 
+F6 "CANH" I R 7300 1200 50 
+F7 "CANL" I R 7300 1100 50 
+F8 "IMD-output" I R 7300 2700 50 
+F9 "IMD-MHS" I R 7300 2900 50 
+F10 "IMD-MLS" I R 7300 2800 50 
+F11 "AIR+-welded-closed" I R 7300 1350 50 
+F12 "AIR--welded-closed" I R 7300 1450 50 
+F13 "Current_Sens_High" I R 7300 2250 50 
+F14 "Current_Sens_Low" I R 7300 2350 50 
+F15 "GND" I L 5100 2650 50 
+F16 "Precharge" I L 5100 1750 50 
+F17 "TS_Ready" I L 5100 1950 50 
+F18 "MCU-AIR+" I L 5100 2050 50 
+F19 "BMS_Fault" I R 7300 1850 50 
+F20 "SDC_out" I L 5100 1100 50 
+F21 "+5V" I L 5100 2750 50 
+F22 "Safe_out" I L 5100 1500 50 
+F23 "Safe_in" I L 5100 1600 50 
+F24 "Reset" I L 5100 2200 50 
+F25 "DCDC_ON" I R 7300 1650 50 
+F26 "HVD_Charger" I L 5100 1200 50 
+F27 "Charger_TSMP" I L 5100 1300 50 
+F28 "TSMP_Inv" I L 5100 1400 50 
+F29 "Reg_EN" I R 7300 2100 50 
+F30 "RTD_accu" I R 7300 2000 50 
+$EndSheet
+Text GLabel 7300 2100 2    50   Input ~ 0
+Reg_EN
+Wire Wire Line
+	9450 1000 9750 1000
+Text GLabel 7300 2000 2    50   Input ~ 0
+RTD_accu
+Wire Wire Line
+	10100 3800 10100 4000
+$Comp
+L Connector_Generic:Conn_01x02 J1
+U 1 1 5F2B8FB6
+P 9900 3600
+F 0 "J1" H 9980 3592 50  0000 L CNN
+F 1 "Jumper" H 9980 3501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 3600 50  0001 C CNN
+F 3 "~" H 9900 3600 50  0001 C CNN
+	1    9900 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J18
+U 1 1 5F2B8FBC
+P 10000 4200
+F 0 "J18" H 10080 4192 50  0000 L CNN
+F 1 "Jumper" H 9950 4000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10000 4200 50  0001 C CNN
+F 3 "~" H 10000 4200 50  0001 C CNN
+	1    10000 4200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9900 3800 9800 3800
+Wire Wire Line
+	10000 3800 10100 3800
+Wire Wire Line
+	10100 4000 10000 4000
+Wire Wire Line
+	9900 4000 9800 4000
+Text GLabel 9800 3800 0    50   Input ~ 0
+RTD_dash
+Text GLabel 9800 4000 0    50   Input ~ 0
+RTD_accu
+Text GLabel 10100 3900 2    50   Input ~ 0
+RTD_in
+$Comp
+L power:GND #PWR?
+U 1 1 5F3365A5
+P 9750 1800
+AR Path="/5E8356A3/5F3365A5" Ref="#PWR?"  Part="1" 
+AR Path="/5F3365A5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9750 1550 50  0001 C CNN
+F 1 "GND" V 9755 1672 50  0000 R CNN
+F 2 "" H 9750 1800 50  0001 C CNN
+F 3 "" H 9750 1800 50  0001 C CNN
+	1    9750 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F337CE2
+P 2100 700
+AR Path="/5E8356A3/5F337CE2" Ref="#PWR?"  Part="1" 
+AR Path="/5F337CE2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2100 450 50  0001 C CNN
+F 1 "GND" V 2105 572 50  0000 R CNN
+F 2 "" H 2100 700 50  0001 C CNN
+F 3 "" H 2100 700 50  0001 C CNN
+	1    2100 700 
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 (sym_lib_table
-  (lib (name IRF7205TRPBF)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/IRF7205TRPBF/IRF7205TRPBF.lib")(options "")(descr ""))
-  (lib (name IRF7201TRPBF)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/IRF7201TRPBF/IRF7201TRPBF.lib")(options "")(descr ""))
-  (lib (name AIL&TSAL)(type Legacy)(uri "C:/Users/zarra/OneDrive/Documentos/Educación/Columbia EE Grad - 2nd Semester/Advanced Project/KiCAD Libraries Sabin/AIL&TSAL.lib")(options "")(descr ""))
+  (lib (name IRF7201TRPBF)(type Legacy)(uri ${KIPRJMOD}/IRF7201TRPBF/IRF7201TRPBF.lib)(options "")(descr ""))
+  (lib (name IRF7205TRPBF)(type Legacy)(uri ${KIPRJMOD}/IRF7205TRPBF/IRF7205TRPBF.lib)(options "")(descr ""))
 )
