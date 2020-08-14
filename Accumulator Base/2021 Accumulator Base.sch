@@ -294,14 +294,14 @@ F 3 "~" H 1400 3400 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x01 J?
+L Connector_Generic:Conn_01x02 J?
 U 1 1 5F271A92
 P 1550 4200
 AR Path="/5E8356A3/5F271A92" Ref="J?"  Part="1" 
 AR Path="/5F271A92" Ref="J17"  Part="1" 
-F 0 "J17" H 1468 3975 50  0000 C CNN
-F 1 "Inverter-" H 1468 4066 50  0000 C CNN
-F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-794374-x_1x01_P4.14mm_Horizontal" H 1550 4200 50  0001 C CNN
+F 0 "J17" H 1550 4000 50  0000 C CNN
+F 1 "Inverter-" H 1550 4300 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-02A2_2x01_P4.20mm_Vertical" H 1550 4200 50  0001 C CNN
 F 3 "~" H 1550 4200 50  0001 C CNN
 	1    1550 4200
 	-1   0    0    1   
@@ -406,19 +406,12 @@ Wire Wire Line
 	5200 4100 5200 4700
 Connection ~ 2450 4500
 Wire Wire Line
-	2450 4500 2450 4550
-Wire Wire Line
 	5050 4000 5050 4500
 Wire Wire Line
 	1750 4200 2550 4200
 Connection ~ 2550 4200
 Wire Wire Line
 	2550 4200 2550 4700
-Wire Wire Line
-	1750 4550 2450 4550
-Connection ~ 2450 4550
-Wire Wire Line
-	2450 4550 2450 5200
 $Comp
 L Device:Fuse F2
 U 1 1 5F116D43
@@ -565,7 +558,7 @@ Text GLabel 8550 1650 0    50   Input ~ 0
 12V-fused
 Text GLabel 3050 3950 0    50   Input ~ 0
 DCDC_ON
-Text Notes 7100 6350 0    118  ~ 0
+Text Notes 7100 7000 0    118  ~ 0
 Programming cable plugged in\nAdd external programming port connector\n
 Text GLabel 5100 1500 0    50   Input ~ 0
 Safe_out
@@ -784,7 +777,7 @@ U 1 1 5F2D910D
 P 3200 1100
 F 0 "J8" H 3300 1100 50  0000 L CNN
 F 1 "Main LV" H 3050 500 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-10A2_2x05_P4.20mm_Horizontal" H 3200 1100 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical" H 3200 1100 50  0001 C CNN
 F 3 "~" H 3200 1100 50  0001 C CNN
 	1    3200 1100
 	1    0    0    -1  
@@ -846,14 +839,14 @@ SDC_open
 Text GLabel 9650 4750 0    50   Input ~ 0
 Safe_in
 $Comp
-L Connector_Generic:Conn_01x02 J4
+L Connector_Generic:Conn_01x04 J4
 U 1 1 5F3A574B
-P 1550 4650
-F 0 "J4" H 1468 4325 50  0000 C CNN
-F 1 "Inv&Bat+" H 1468 4416 50  0000 C CNN
-F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770966-x_1x02_P4.14mm_Horizontal" H 1550 4650 50  0001 C CNN
-F 3 "~" H 1550 4650 50  0001 C CNN
-	1    1550 4650
+P 1550 4750
+F 0 "J4" H 1550 4450 50  0000 C CNN
+F 1 "Inv&Bat+" H 1550 4950 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-04A2_2x02_P4.20mm_Vertical" H 1550 4750 50  0001 C CNN
+F 3 "~" H 1550 4750 50  0001 C CNN
+	1    1550 4750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -916,44 +909,42 @@ Text GLabel 2750 2350 0    50   Input ~ 0
 Text Notes 2050 2250 0    50   ~ 0
 Reset option for "testing" only
 $Comp
-L Connector_Generic:Conn_01x02 J12
+L Connector_Generic:Conn_01x04 J12
 U 1 1 5F16BD14
-P 10000 5750
-F 0 "J12" H 9918 5425 50  0000 C CNN
-F 1 "Energy Meter" H 9918 5516 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 10000 5750 50  0001 C CNN
-F 3 "~" H 10000 5750 50  0001 C CNN
-	1    10000 5750
+P 10100 6250
+F 0 "J12" H 10250 6150 50  0000 C CNN
+F 1 "EnergyMeter-OUT" H 10050 5900 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" H 10100 6250 50  0001 C CNN
+F 3 "~" H 10100 6250 50  0001 C CNN
+	1    10100 6250
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F16C94A
-P 10200 5750
+P 10400 6250
 AR Path="/5E8356A3/5F16C94A" Ref="#PWR?"  Part="1" 
 AR Path="/5F16C94A" Ref="#PWR0103"  Part="1" 
-F 0 "#PWR0103" H 10200 5500 50  0001 C CNN
-F 1 "GND" V 10205 5622 50  0000 R CNN
-F 2 "" H 10200 5750 50  0001 C CNN
-F 3 "" H 10200 5750 50  0001 C CNN
-	1    10200 5750
-	1    0    0    -1  
+F 0 "#PWR0103" H 10400 6000 50  0001 C CNN
+F 1 "GND" V 10405 6122 50  0000 R CNN
+F 2 "" H 10400 6250 50  0001 C CNN
+F 3 "" H 10400 6250 50  0001 C CNN
+	1    10400 6250
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:Fuse F6
 U 1 1 5F16D16E
-P 10450 5650
-F 0 "F6" V 10650 5650 50  0000 C CNN
-F 1 "Fuse" V 10550 5650 50  0000 C CNN
-F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" V 10380 5650 50  0001 C CNN
-F 3 "~" H 10450 5650 50  0001 C CNN
-	1    10450 5650
+P 10550 6350
+F 0 "F6" V 10450 6500 50  0000 C CNN
+F 1 "Fuse" V 10450 6350 50  0000 C CNN
+F 2 "Fuse:Fuseholder_Blade_Mini_Keystone_3568" V 10480 6350 50  0001 C CNN
+F 3 "~" H 10550 6350 50  0001 C CNN
+	1    10550 6350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 10600 5650 2    50   Input ~ 0
+Text GLabel 10700 6350 2    50   Input ~ 0
 12V-fused
-Wire Wire Line
-	10300 5650 10200 5650
 Text Notes 9800 5350 0    50   ~ 0
 Energy Meter LV power
 Text GLabel 7900 3200 2    50   Input ~ 0
@@ -980,7 +971,7 @@ U 1 1 5F1BCFD2
 P 9950 1300
 F 0 "J13" H 9600 600 50  0000 L CNN
 F 1 "Dash" H 9850 600 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-12A2_2x06_P4.20mm_Horizontal" H 9950 1300 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-12A_2x06_P4.20mm_Vertical" H 9950 1300 50  0001 C CNN
 F 3 "~" H 9950 1300 50  0001 C CNN
 	1    9950 1300
 	1    0    0    -1  
@@ -1170,7 +1161,7 @@ U 1 1 5F2B8EAA
 P 11100 1600
 F 0 "J5" H 10600 600 50  0000 L CNN
 F 1 "Peripherals" H 10800 600 50  0000 L CNN
-F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5569-18A2_2x09_P4.20mm_Horizontal" H 11100 1600 50  0001 C CNN
+F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-18A_2x09_P4.20mm_Vertical" H 11100 1600 50  0001 C CNN
 F 3 "~" H 11100 1600 50  0001 C CNN
 	1    11100 1600
 	1    0    0    -1  
@@ -1350,8 +1341,8 @@ F 3 "" H 2100 1400 50  0001 C CNN
 	1    2100 1400
 	0    1    1    0   
 $EndComp
-Text Notes 1650 600  0    50   ~ 0
-Inverter connections
+Text Notes 1450 600  0    50   ~ 0
+Inverter&Motor connections
 $Comp
 L power:GND #PWR?
 U 1 1 5F37E6D8
@@ -1463,7 +1454,7 @@ L Connector_Generic:Conn_01x10 J10
 U 1 1 5F23F313
 P 2300 1100
 F 0 "J10" H 2400 1100 50  0000 L CNN
-F 1 "Inverter" H 2150 500 50  0000 L CNN
+F 1 "Inverter&Motor" H 2050 500 50  0000 L CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-10A_2x05_P4.20mm_Vertical" H 2300 1100 50  0001 C CNN
 F 3 "~" H 2300 1100 50  0001 C CNN
 	1    2300 1100
@@ -1804,8 +1795,8 @@ L power:GND #PWR?
 U 1 1 5F3365A5
 P 9750 1800
 AR Path="/5E8356A3/5F3365A5" Ref="#PWR?"  Part="1" 
-AR Path="/5F3365A5" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 9750 1550 50  0001 C CNN
+AR Path="/5F3365A5" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 9750 1550 50  0001 C CNN
 F 1 "GND" V 9755 1672 50  0000 R CNN
 F 2 "" H 9750 1800 50  0001 C CNN
 F 3 "" H 9750 1800 50  0001 C CNN
@@ -1817,12 +1808,53 @@ L power:GND #PWR?
 U 1 1 5F337CE2
 P 2100 700
 AR Path="/5E8356A3/5F337CE2" Ref="#PWR?"  Part="1" 
-AR Path="/5F337CE2" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 2100 450 50  0001 C CNN
+AR Path="/5F337CE2" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 2100 450 50  0001 C CNN
 F 1 "GND" V 2105 572 50  0000 R CNN
 F 2 "" H 2100 700 50  0001 C CNN
 F 3 "" H 2100 700 50  0001 C CNN
 	1    2100 700 
 	0    1    1    0   
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x04 J19
+U 1 1 5F3641D1
+P 9450 6250
+F 0 "J19" H 9550 6150 50  0000 L CNN
+F 1 "EnergyMeter-IN" H 9150 5900 50  0000 L CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" H 9450 6250 50  0001 C CNN
+F 3 "~" H 9450 6250 50  0001 C CNN
+	1    9450 6250
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	10400 6350 10300 6350
+Wire Wire Line
+	9250 6050 10300 6050
+Wire Wire Line
+	10300 6150 9250 6150
+Wire Wire Line
+	10300 6250 9250 6250
+Wire Wire Line
+	9250 6350 10300 6350
+Connection ~ 10300 6350
+Wire Wire Line
+	10400 6250 10300 6250
+Connection ~ 10300 6250
+Wire Wire Line
+	1750 4100 1750 4200
+Connection ~ 1750 4200
+Wire Wire Line
+	2450 4500 2450 4850
+Wire Wire Line
+	1750 4850 2450 4850
+Connection ~ 2450 4850
+Wire Wire Line
+	2450 4850 2450 5200
+Wire Wire Line
+	1750 4750 1750 4850
+Connection ~ 1750 4850
+Wire Wire Line
+	1750 4550 1750 4650
+Connection ~ 1750 4650
 $EndSCHEMATC

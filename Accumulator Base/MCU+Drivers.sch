@@ -645,4 +645,42 @@ Text HLabel 5950 2600 1    50   Input ~ 0
 RTD_accu
 Text HLabel 5850 2600 1    50   Input ~ 0
 Reg_EN
+$Comp
+L Connector_Generic:Conn_01x04 J20
+U 1 1 5F3F29A1
+P 1650 1450
+F 0 "J20" H 1568 1025 50  0000 C CNN
+F 1 "LCD" H 1568 1116 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0415_1x04_P3.00mm_Vertical" H 1650 1450 50  0001 C CNN
+F 3 "~" H 1650 1450 50  0001 C CNN
+	1    1650 1450
+	-1   0    0    1   
+$EndComp
+Text HLabel 2350 1250 2    50   Input ~ 0
++5V
+Text HLabel 1850 1350 2    50   Input ~ 0
+GND
+Text GLabel 1850 1450 2    50   Input ~ 0
+SCL
+Text GLabel 1850 1550 2    50   Input ~ 0
+SDA
+Text GLabel 5450 2600 1    50   Input ~ 0
+SDA
+Text GLabel 5550 2600 1    50   Input ~ 0
+SCL
+$Comp
+L Device:Fuse F7
+U 1 1 5F3FA253
+P 2100 1250
+F 0 "F7" V 1903 1250 50  0000 C CNN
+F 1 "Fuse" V 1994 1250 50  0000 C CNN
+F 2 "Fuse:Fuse_1206_3216Metric" V 2030 1250 50  0001 C CNN
+F 3 "~" H 2100 1250 50  0001 C CNN
+	1    2100 1250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1850 1250 1950 1250
+Wire Wire Line
+	2250 1250 2350 1250
 $EndSCHEMATC
