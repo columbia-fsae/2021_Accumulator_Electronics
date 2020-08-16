@@ -288,7 +288,7 @@ AR Path="/5E8356A3/5F1313BC" Ref="J?"  Part="1"
 AR Path="/5F1313BC" Ref="J3"  Part="1" 
 F 0 "J3" H 1318 3075 50  0000 C CNN
 F 1 "TSMP" H 1318 3166 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0315_1x03_P3.00mm_Vertical" H 1400 3400 50  0001 C CNN
+F 2 "Connector_TE-Connectivity:TE_MATE-N-LOK_1-770870-x_1x03_P4.14mm_Vertical" H 1400 3400 50  0001 C CNN
 F 3 "~" H 1400 3400 50  0001 C CNN
 	1    1400 3400
 	-1   0    0    1   
