@@ -13,5 +13,4 @@ _autosave-*
 *.stl
 
 fp-info-cache
-fp-lib-table
 *-cache.lib
