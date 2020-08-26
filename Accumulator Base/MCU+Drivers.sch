@@ -559,8 +559,6 @@ Text GLabel 5750 4450 1    50   Input ~ 0
 Safe_in_MCU
 Text GLabel 6550 2600 1    50   Input ~ 0
 3.3V
-Text HLabel 4200 2900 3    50   Input ~ 0
-+5V
 Text HLabel 4100 2900 3    50   Input ~ 0
 GND
 Text HLabel 4200 4750 3    50   Input ~ 0
@@ -571,8 +569,6 @@ Text HLabel 6250 2900 3    50   Input ~ 0
 GND
 Text HLabel 6950 4750 3    50   Input ~ 0
 +5V
-Text GLabel 6350 2600 1    50   Input ~ 0
-3.3V
 Text GLabel 8800 900  1    50   Input ~ 0
 3.3V
 Text GLabel 10600 900  1    50   Input ~ 0
@@ -635,10 +631,6 @@ Text GLabel 3600 4450 1    50   Input ~ 0
 DCDC_EN
 Text Notes 4750 650  0    50   ~ 0
 Coil model: TFM322512ALMA100MTAA
-Text GLabel 4200 2600 1    50   Input ~ 0
-3.3V
-Text HLabel 6350 2900 3    50   Input ~ 0
-+5V
 Text HLabel 6350 4750 3    50   Input ~ 0
 GND
 Text HLabel 5950 2600 1    50   Input ~ 0
