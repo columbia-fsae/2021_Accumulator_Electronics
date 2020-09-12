@@ -89,18 +89,16 @@ Connect to TSMP\n
 $Comp
 L power:GND #PWR?
 U 1 1 5F1313E0
-P 6200 5350
+P 7350 4900
 AR Path="/5E8356A3/5F1313E0" Ref="#PWR?"  Part="1" 
 AR Path="/5F1313E0" Ref="#PWR07"  Part="1" 
-F 0 "#PWR07" H 6200 5100 50  0001 C CNN
-F 1 "GND" V 6205 5222 50  0000 R CNN
-F 2 "" H 6200 5350 50  0001 C CNN
-F 3 "" H 6200 5350 50  0001 C CNN
-	1    6200 5350
+F 0 "#PWR07" H 7350 4650 50  0001 C CNN
+F 1 "GND" V 7355 4772 50  0000 R CNN
+F 2 "" H 7350 4900 50  0001 C CNN
+F 3 "" H 7350 4900 50  0001 C CNN
+	1    7350 4900
 	0    1    1    0   
 $EndComp
-Text GLabel 5600 5350 1    50   Input ~ 0
-12V-fused
 Wire Wire Line
 	3050 3750 2450 3750
 Wire Wire Line
@@ -126,7 +124,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 4700 4850 4700
 Connection ~ 5200 4700
-Text GLabel 7500 5250 2    50   Input ~ 0
+Text GLabel 7350 5400 0    50   Input ~ 0
 BSPD
 Wire Wire Line
 	9050 2800 9050 4000
@@ -495,7 +493,7 @@ Wire Wire Line
 	4350 2350 4600 2350
 Wire Wire Line
 	4900 2350 5100 2350
-Text GLabel 6200 5550 0    50   Input ~ 0
+Text GLabel 7350 5100 0    50   Input ~ 0
 SDC_out
 Text GLabel 5100 1100 0    50   Input ~ 0
 SDC_out
@@ -689,8 +687,6 @@ Text Notes 10300 650  0    50   ~ 0
 Peripheral connections
 Text Notes 2550 600  0    50   ~ 0
 Main LV Box connections
-Wire Wire Line
-	9200 2050 9200 5350
 $Comp
 L power:GND #PWR?
 U 1 1 5F1D597C
@@ -853,8 +849,6 @@ Wire Wire Line
 	1750 4650 2250 4650
 Wire Wire Line
 	2250 4650 2250 5100
-Text GLabel 5600 5450 3    50   Input ~ 0
-RST
 $Comp
 L Device:Q_NMOS_GDS Q?
 U 1 1 5F3B2A55
@@ -1020,7 +1014,7 @@ Text GLabel 10450 2950 2    50   Input ~ 0
 Current_Sens
 Text GLabel 7300 1650 2    50   Input ~ 0
 DCDC_ON
-Text GLabel 6200 5250 0    50   Input ~ 0
+Text GLabel 7350 4800 0    50   Input ~ 0
 12V-fused
 Text GLabel 3000 1000 0    50   Input ~ 0
 12V-fused
@@ -1509,53 +1503,14 @@ Text GLabel 850  650  2    50   Input ~ 0
 5V-fused
 Text GLabel 2100 1600 0    50   Input ~ 0
 Reg_ON
-$Comp
-L CUFR-Full-Library:SDC U?
-U 1 1 5F36299A
-P 6800 5250
-AR Path="/5E8356A3/5EF3856E/5F36299A" Ref="U?"  Part="1" 
-AR Path="/5F1313D9/5F36299A" Ref="U?"  Part="1" 
-AR Path="/5F36299A" Ref="U3"  Part="1" 
-F 0 "U3" H 6775 5515 50  0000 C CNN
-F 1 "SDC-CUFR-Full-Library" H 6775 5424 50  0000 C CNN
-F 2 "CUFR-Full-Footprint-Library:SDC_Module2021" V 6250 5400 50  0001 C CNN
-F 3 "" V 6250 5400 50  0001 C CNN
-	1    6800 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 5350 5600 5350
-Wire Wire Line
-	6200 5450 5500 5450
-Wire Wire Line
-	6200 5650 6200 5900
-Wire Wire Line
-	7500 5350 9200 5350
-Wire Wire Line
-	9100 5900 9100 4200
 Connection ~ 9100 4200
 Wire Wire Line
 	7650 4200 9100 4200
-Wire Wire Line
-	6200 5900 9100 5900
-$Comp
-L Connector_Generic:Conn_01x02 J?
-U 1 1 5F26A6E8
-P 5300 5350
-AR Path="/5E8356A3/5F26A6E8" Ref="J?"  Part="1" 
-AR Path="/5F26A6E8" Ref="J16"  Part="1" 
-F 0 "J16" H 5300 5150 50  0000 C CNN
-F 1 "Reset button" H 5300 5450 50  0000 C CNN
-F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 5300 5350 50  0001 C CNN
-F 3 "~" H 5300 5350 50  0001 C CNN
-	1    5300 5350
-	-1   0    0    -1  
-$EndComp
-Text GLabel 7500 5550 2    50   Input ~ 0
+Text GLabel 8500 4800 2    50   Input ~ 0
 BSPD_LED
-Text GLabel 7500 5450 2    50   Input ~ 0
+Text GLabel 8500 4700 2    50   Input ~ 0
 IMD_LED
-Text GLabel 7500 5650 2    50   Input ~ 0
+Text GLabel 8500 4900 2    50   Input ~ 0
 BMS_LED
 $Comp
 L pspice:C C11
@@ -1978,4 +1933,54 @@ Wire Wire Line
 Connection ~ 9800 4750
 Wire Wire Line
 	9800 4750 10000 4750
+$Comp
+L SDC_9-8-20:SDC_9-8-20 U3
+U 1 1 5F5B0511
+P 7950 4500
+F 0 "U3" H 7925 4565 50  0000 C CNN
+F 1 "SDC_9-8-20" H 7925 4474 50  0000 C CNN
+F 2 "SDC:SDC_9-8-20" H 7950 4500 50  0001 C CNN
+F 3 "" H 7950 4500 50  0001 C CNN
+	1    7950 4500
+	1    0    0    -1  
+$EndComp
+Text GLabel 7350 5200 0    50   Input ~ 0
+RST
+Wire Wire Line
+	9200 2050 9200 5800
+Wire Wire Line
+	7350 5500 7350 5700
+Wire Wire Line
+	7350 5700 9100 5700
+Wire Wire Line
+	9100 5700 9100 4200
+Wire Wire Line
+	9200 5800 7000 5800
+Wire Wire Line
+	7000 5800 7000 5300
+Wire Wire Line
+	7000 5300 7350 5300
+Text GLabel 6200 5450 1    50   Input ~ 0
+12V-fused
+Text GLabel 6200 5550 3    50   Input ~ 0
+RST
+Wire Wire Line
+	6100 5450 6200 5450
+$Comp
+L Connector_Generic:Conn_01x02 J?
+U 1 1 5F26A6E8
+P 5900 5450
+AR Path="/5E8356A3/5F26A6E8" Ref="J?"  Part="1" 
+AR Path="/5F26A6E8" Ref="J16"  Part="1" 
+F 0 "J16" H 5900 5250 50  0000 C CNN
+F 1 "Reset button" H 5900 5550 50  0000 C CNN
+F 2 "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical" H 5900 5450 50  0001 C CNN
+F 3 "~" H 5900 5450 50  0001 C CNN
+	1    5900 5450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 5550 6200 5550
+Text GLabel 7350 4700 0    50   Input ~ 0
+5V-fused
 $EndSCHEMATC

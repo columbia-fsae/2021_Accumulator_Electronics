@@ -7,4 +7,5 @@
   (lib (name G2RL-24-DC12)(type Legacy)(uri ${KIPRJMOD}/G2RL-24-DC12/G2RL-24-DC12.mod)(options "")(descr ""))
   (lib (name G2RL-1_12DC)(type Legacy)(uri ${KIPRJMOD}/G2RL-1_12DC/G2RL-1_12DC.mod)(options "")(descr ""))
   (lib (name EEV-EB2V100SM)(type Legacy)(uri ${KIPRJMOD}/EEV-EB2V100SM/EEV-EB2V100SM.mod)(options "")(descr ""))
+  (lib (name SDC)(type KiCad)(uri ${KIPRJMOD}/SDC)(options "")(descr ""))
 )
